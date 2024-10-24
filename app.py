@@ -4,7 +4,7 @@ import pytesseract
 import fitz
 
 # Defina o caminho para o executável do Tesseract
-pytesseract.pytesseract.tesseract_cmd = r'pytesseract.exe'  # Exemplo para Windows
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\pytesseract.exe'  # Exemplo para Windows
 
 
 # Função para extrair texto de imagens
