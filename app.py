@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import pytesseract
-import fitz  # PyMuPDF
+import PyMuPDF
 
 # Função para extrair texto de imagens
 def extract_text_from_image(image):
